@@ -51,8 +51,7 @@ setup(
     ],
     keywords=["sudoku", "sudoku solver", "dancing links"],
     packages=find_packages(exclude=('tests', )),
-    install_requires=[],
-    package_data={},
+    install_requires=['fastapi', 'uvicorn[standard]'],    package_data={},
     dependency_links=[],
     ext_modules=[],
     entry_points={
